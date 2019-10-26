@@ -2,5 +2,5 @@
 
 export DOCKER_BUILDKIT=1
 
-docker build -t scottylogan/multi-arm .
+docker build --platform linux/arm -t scottylogan/multi:latest_arm_v7 .
 
